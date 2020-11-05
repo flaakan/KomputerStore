@@ -17,7 +17,7 @@ $(document).ready(()=>{
 });
 
 const getComputers = async () => {
-    return await getData("/computers.json");
+    return await getData("/data/computers.json");
 };
 
 const getData = async (url) => {
